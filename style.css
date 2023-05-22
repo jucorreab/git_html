@@ -34,4 +34,8 @@ h1{
 	border: 3px solid #000000 ;
 	border-radius: 20px;
 }
+.link_botao{
+    text-decoration: none;
+    color:var(--cor-botao);
+}
 
