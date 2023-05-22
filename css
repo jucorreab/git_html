@@ -1,0 +1,25 @@
+:root {
+    --background-color: #69645c ;
+    --cor-principal : #ebebeb ;
+    --cor-botao : #b5a07b ;
+}
+
+body {
+     background-color: var(--background-color) ;
+}
+h1{
+    padding: 2% 0% 1% 0%;
+}
+.textoPrincipal{
+    color: var(--cor-principal);
+    text-align: center;
+    margin: 0%;
+}
+.lista_botao{
+    display: flex;
+   justify-content: space-between;
+    
+}
+li{
+    box-sizing: border-box;
+}
