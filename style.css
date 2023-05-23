@@ -1,7 +1,9 @@
 :root {
-    --background-color: #69645c ;
-    --cor-principal : #ebebeb ;
-    --cor-botao : #b5a07b ;
+    --background-color: #0d1117 ;
+    --cor-principal : #ffffff ;
+    --cor-botao : #2f81f7 ;
+    --color-text: rgba(255,255,255,0.7) ;
+ 
 }
 
 body {
@@ -12,7 +14,7 @@ main{
 	margin: 0 auto;
 }
 h1{
-    padding: 2% 0% 1% 0%;
+    padding: 1.3% 0% 1% 0%;
 }
 .textoPrincipal{
     color: var(--cor-principal);
@@ -24,15 +26,24 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.lista_botao li{
+.lista_parte{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+    
+.lista_parte li{
     box-sizing: border-box;
     list-style: none;
     text-align: center; 
 	width: 30%;
 	margin: 10px 1.5%;
 	padding:30px 20px;
-	border: 3px solid #000000 ;
+	border: 3px solid #000000;
 	border-radius: 20px;
+}
+.lista_parte p {
+    color: var(--color-text);
 }
 .link_botao{
     text-decoration: none;
@@ -40,4 +51,5 @@ h1{
 }
 .link_botao:hover{
     font-size: 1.2rem;
+    color: aqua;
 }
