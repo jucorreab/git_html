@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+    gap: 2%;
+    margin: 2.2% 2.5%;
+    list-style: none;
+}
+
+.link_header{
+    box-sizing: border-box;
+    color: #2f81f7;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.link_header:hover{
+    color: #00ffff;
+    font-size: 1.3rem;
+}

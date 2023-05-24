@@ -1,0 +1,9 @@
+:root {
+    --cor-principal : #ffffff ;
+}
+.texto_footer{
+    font-size: 1.2rem;
+    margin: 0.5% auto 0.5% auto;
+    text-align: center;
+    color: var(--cor-principal);
+}

@@ -5,14 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <ul class="cabecalho">
+
+            <li >
+                <a href="index.html" class="link_header">Home</a>
+            </li>
+            <li>
+                <a href="" class="link_header">Primeiros passos </a>
+            </li>
+
+            <li>
+                <a href="" class="link_header">Repositorio existente</a>
+            </li>
+            <li>
+                <a href="" class="link_header">Repositório nao existente</a>
+            </li>
+            <li>
+                <a href="" class="link_header">Github no Vs code</a>
+            </li>
+
+            <li >
+                <a href="" class="link_header">Link Exemplo</a>
+            </li>
+        </ul>
+    </header>
     <main>
         <div class="content">
             <h3>Inscreva-se para receber mais conteúdos como esse!</h3>
-            <form id="form">
+            <form >
                 <div>
                     <input type="text" placeholder="Nome" class="inputs required" oninput="nameValidate()">
                     <span class="span-required">Nome deve possuir no mínimo 3 caracteres</span>
@@ -54,8 +80,8 @@
         </div>
     </main>
     <footer class="rodape">
-        <h4 class="texto_rodape">GitGroup</h4>
-        <h6 class="texto_rodape">@2023</h6>
+        <h4 class="texto_footer">GitGroup</h4>
+        <h6 class="texto_footer">@2023</h6>
     </footer>
 </body>
 <script>
